@@ -1,0 +1,87 @@
+
+    
+}
+/* team area*/
+.teachers{
+	
+    position: relative;
+    
+    overflow: hidden;
+}
+.teachers h4{
+	margin-top:25px;
+}
+.teachers h4 span{
+	display:block;
+	font-weight:300;
+	line-height:38px;
+}
+.social_books > ul {
+    list-style: outside none none;
+    margin: 13px 0 0;
+    padding: 0;
+}
+.social_books li {
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-right: 4px;
+}
+.social_books a {
+    color: #fff;
+    display: inline-block;
+    padding: 3px;
+    width: 34px;
+    transition: .4s;
+}
+.social_books a:hover {
+  background: #fff none repeat scroll 0 0;
+  color: #e34b11;
+}
+.hover-content {
+  background: #e34b11 none repeat scroll 0 0;
+  bottom: -100%;
+  height: 44%;
+  padding: 16px;
+  position: absolute;
+  transition: all 0.4s cubic-bezier(1, -0.53, 0.405, 1.425) 0s;
+  width: 100%;
+  text-align: center;
+}
+.hover-content p{
+    margin: 0;
+    color: #fff;
+}
+.hover-content span{
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 8px;
+    color: #fff;
+}
+
+.social_books {
+    position: relative;
+}
+.social_books::before {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 109px;
+    left: 0;
+    position: absolute;
+    top: -64px;
+    width: 2px;
+}
+
+.social_books::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 109px;
+    right: 0;
+    position: absolute;
+    top: -64px;
+    width: 2px;
+}
+
+.teachers:hover .hover-content{
+    bottom: 0%;
+}
